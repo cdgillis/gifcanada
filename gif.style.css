@@ -1,0 +1,89 @@
+#canadaButtons {
+    float: left;
+    /* clear: both; */
+}
+
+#canadaButtons button {
+    background-color: crimson;
+    font-size: 24px;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 6px;
+}
+
+#gifs-appear-here {
+    clear: right;
+}
+
+.panel {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    color: #fff;
+    clear: both;
+}
+
+#btnBox {
+    clear: right;
+    float: right;
+    /* display: block; */
+}
+
+#newButton {
+    font-size: 24px;
+    padding: .75%;
+    margin: 1%;
+    border-radius: 6px;
+}
+
+#inputBox {
+    height: 50px;
+    font-size: 25px;
+    padding: .75%;
+    margin: 1%;
+}
+
+/* .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+    color: blue;
+    padding: 1% 0;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    z-index: 1;
+} */
+
+#title {
+    float: left;
+    min-height: 55px;
+    padding: 15px 15px 5px;
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: gainsboro;
+    background-color: navy;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: royalblue;
+}
+
+.form-inline {
+    float: right;
+    margin-top: 8px;
+}
+
+#myNavbar {
+    padding-top: 5px;
+}
