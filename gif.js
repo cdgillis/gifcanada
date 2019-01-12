@@ -1,6 +1,6 @@
 // JavaScript 
 
-var topics = ["moose", "beaver", "mountie", "canoe", "great lakes", "snowboarding", "maritimes", "prairies", "rockies", "coast mountains"];
+var topics = ["moose", "beaver", "mountie", "canoeing", "great lakes", "snowboarding", "maritimes", "prairies", "rockies", "coast mountains", "sea to sky"];
 // var gifUrls = [];
 // var gifUrlsStill = [];
 
@@ -63,7 +63,7 @@ $('body').on('click', '.gif', function () {
 $("#canadaButtons").on("click", "button", function () {
   var animal = $(this).attr("data-animal");
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+    animal + "+canadian&api_key=dc6zaTOxFJmzC&limit=10";
 
   $.ajax({
     url: queryURL,

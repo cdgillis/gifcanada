@@ -48,6 +48,10 @@
     margin: 1%;
 }
 
+body {
+    align-items:  center;
+}
+
 /* .navbar {
     margin-bottom: 0;
     border-radius: 0;
