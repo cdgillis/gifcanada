@@ -1,3 +1,37 @@
+body {
+    height: 100%;
+    background-image: url('Canadian-Rockies.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+
+}
+p {
+    color: white;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+}
+div.panel {
+   background: none;
+   margin: 5px;
+
+}
+
+img {
+    /* width: 200px; */
+    height: 100%;
+    width: 100%;
+    border: 1%;
+    border-color: white; 
+}
+
 #canadaButtons {
     float: left;
     /* clear: both; */
@@ -17,21 +51,21 @@
 }
 
 .panel {
-    display: -ms-flexbox;
-    /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap;
-    /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
-    color: #fff;
+    /* color: #fff; */
     clear: both;
+    margin: 0;
+    border: 5px;
 }
 
 #btnBox {
     clear: right;
     float: right;
     /* display: block; */
+    margin-bottom: 5%;
 }
 
 #newButton {
@@ -39,6 +73,7 @@
     padding: .75%;
     margin: 1%;
     border-radius: 6px;
+    border-color: white;
 }
 
 #inputBox {
@@ -48,9 +83,6 @@
     margin: 1%;
 }
 
-body {
-    align-items:  center;
-}
 
 /* .navbar {
     margin-bottom: 0;

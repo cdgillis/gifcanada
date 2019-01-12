@@ -1,6 +1,6 @@
 // JavaScript 
 
-var topics = ["moose", "beaver", "mountie", "canoeing", "great lakes", "snowboarding", "maritimes", "prairies", "rockies", "coast mountains", "sea to sky"];
+var topics = ["moose", "beaver", "mountie", "canoeing", "great lakes", "snowboarding", "maritimes", "prairies", "territories", "rockies", "coast mountains", "sea to sky", "maple syrup"];
 // var gifUrls = [];
 // var gifUrlsStill = [];
 
@@ -102,7 +102,7 @@ $("#canadaButtons").on("click", "button", function () {
       var rating = results[i].rating;
       var upperCaseRating = rating.toUpperCase();
 
-      var p = $("<p>").text("Rating: " + upperCaseRating);
+      var p = $("<p>").text("Rated: " + upperCaseRating);
       var animalImage = $("<img>")
       // animalImage.attr("src", results[i].images.fixed_height.url);
       animalImage.attr("src", results[i].images.fixed_height_still.url);
