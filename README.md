@@ -1,5 +1,4 @@
-# giftastic! or gifcanada
-Homework Assignment 5
+# gifcanada
 
 This app uses GIPHY APIs to populate the webpage with Canadian gifs of your choosing (there are a few examples to get you started!).
 
