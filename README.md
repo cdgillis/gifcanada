@@ -1,7 +1,8 @@
-# GIFTASTIC! Canada
+# [GIFTASTIC! Canada](https://cdgillis.github.io/gifcanada/)
 
 This app uses GIPHY APIs to populate the webpage with Canadian gifs of your choosing (there are a few examples to get you started!).
 
+---
 
 Instructions:
 
@@ -20,7 +21,11 @@ Technologies utilized:
 
 HTML, CSS, Google Fonts, Bootstrap, API, JavaScript, and jQuery, which change the HTML dynamically.
 
+---
+
 **[View Website](https://cdgillis.github.io/gifcanada/)**
+
+---
 
 Enjoy!
 
