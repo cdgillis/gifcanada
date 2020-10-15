@@ -24,13 +24,12 @@ div.panel {
 
 }
 
-img {
-    /* width: 200px; */
+/* img {
     height: 100%;
-    width: 100%;
+    width: 100%; 
     border: 1%;
     border-color: white; 
-}
+} */
 
 #canadaButtons {
     float: left;
@@ -82,7 +81,6 @@ img {
     padding: .75%;
     margin: 1%;
 }
-
 
 /* .navbar {
     margin-bottom: 0;

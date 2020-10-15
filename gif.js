@@ -34,7 +34,7 @@ $('#newButton').on('click', function () {
 });
 
 $('body').on('click', '.gif', function () {
-// $('.gif').on('click', function () {
+  // $('.gif').on('click', function () {
   console.log("Click function running");
   // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
   var state = $(this).attr("data-state");
@@ -49,21 +49,23 @@ $('body').on('click', '.gif', function () {
     $(this).attr("data-state", "animate"); // updating the data state
     // var index = $(this).attr("data-gif-id"); // data-gif-id not updating correctly
     // $(this).attr("src", gifUrls[parseInt(index)]); 
-    $(this).attr("src", $(this).attr("data-animate")); 
+    $(this).attr("src", $(this).attr("data-animate"));
   } else {
     // $(this).attr("src", $(this).attr("data-still"));
     $(this).attr("data-state", "still");
     // var index = $(this).attr("data-gif-id");
     // $(this).attr("src", gifUrlsStill[parseInt(index)]); 
-    $(this).attr("src", $(this).attr("data-still")); 
+    $(this).attr("src", $(this).attr("data-still"));
   }
-  
+
 });
 
 $("#canadaButtons").on("click", "button", function () {
   var animal = $(this).attr("data-animal");
+  // var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+  //   animal + "+canadian&api_key=dc6zaTOxFJmzC&limit=10";
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    animal + "+canadian&api_key=dc6zaTOxFJmzC&limit=10";
+    animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
   $.ajax({
     url: queryURL,
@@ -109,13 +111,13 @@ $("#canadaButtons").on("click", "button", function () {
       // gifUrls.push(results[i].images.fixed_height.url); // Animated
       // gifUrlsStill.push(results[i].images.fixed_height_still.url);
       //  $("#photo").append('<img class="gif" src="' + response.data[i].images.fixed_height_still.url + '">');
-      
+
       animalImage.attr("data-state", "still");
       // animalImage.attr("data-gif-id", i);
-      
+
       animalImage.attr("data-still", results[i].images.fixed_height_still.url);
       animalImage.attr("data-animate", results[i].images.fixed_height.url);
-     
+
       animalImage.addClass("gif");
 
       animalDiv.append(p);
